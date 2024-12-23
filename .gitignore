@@ -129,7 +129,7 @@ dmypy.json
 .pyre/
 
 # ADDITIONS START FROM HERE
-data/
+/data
 samples/
 misc/
 runs/
@@ -137,6 +137,9 @@ latent-data/
 *.png
 *.jpg
 *.pt
+
+!/data/00000/00950.png
+!/data/20000/20997.png
 
 !recon-example.png
 
